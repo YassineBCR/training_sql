@@ -1,0 +1,1 @@
+SELECT COUNT(id_transaction) FROM transactions_sample ts WHERE departement ='75'AND WHERE date_transaction = '2022';

@@ -1,0 +1,1 @@
+SELECT AVG(prix / surface_habitable) FROM transactions_sample ts WHERE type_batiment = 'Maison' AND ville ='Avignon';

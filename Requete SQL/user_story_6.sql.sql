@@ -1,0 +1,1 @@
+SELECT n_pieces, COUNT(id_transaction)  FROM transactions_sample ts WHERE type_batiment = 'Appartement' AND ville ='MARSEILLE' GROUP BY n_pieces ORDER BY n_pieces  ;

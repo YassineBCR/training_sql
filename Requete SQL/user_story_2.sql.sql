@@ -1,0 +1,1 @@
+SELECT * FROM transactions_sample ts WHERE ville ='HENDAYE' ORDER BY date_transaction DESC LIMIT 10;

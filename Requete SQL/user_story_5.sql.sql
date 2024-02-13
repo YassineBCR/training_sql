@@ -1,0 +1,1 @@
+SELECT COUNT(id_transaction)  FROM transactions_sample ts WHERE type_batiment = 'Appartement' and date_transaction LIKE '2022%' AND ville ='Rennes';

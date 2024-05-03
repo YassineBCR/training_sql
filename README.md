@@ -23,21 +23,5 @@
 <li><p>En tant que CEO, je veux accéder aux 10 villes avec un prix au m2 moyen le plus haut pour les maisons</li>
 </ol>
 <hr>
-<h1>Utilisation de git sous Ubuntu</h1>
-<hr>
-<h5>Configuration de GitHub sur WSL Ubuntu</li>
-<h5>Commandes:</h5>
-<ol>
-<li><p>sudo apt update</li>
-<li><p>sudo apt install git</li>
-<h5>configurer git :</h5>
-<li><p>git config --global user.name "Votre Nom"</li>
-<li><p>git config --global user.email "votre.email@example.com"</li>
-<h5>generer une cle ssh :</h5>
-<li><p>ssh-keygen -t ed25519 -C "votre.email@example.com"</li>
-<h5>ajouter la cle ssh a ssh-agent : </h5>
-<li><p>eval "$(ssh-agent -s)"</li>
-<li><p>ssh-add ~/.ssh/id_ed25519</li>
-</ol>
 <hr>
 <h1>                    Merci 
